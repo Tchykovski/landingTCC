@@ -3,10 +3,6 @@ const devPicture = document.querySelectorAll('.dev-picture')
 const yesMobile = document.querySelectorAll('#yes-mobile')
 const noMobile = document.querySelectorAll('#no-mobile')
 
-
-
-
-
 let screenWidth = window.screen.width
 
 if (screenWidth < 760) {
@@ -14,7 +10,6 @@ if (screenWidth < 760) {
     for (var i = 0; i < devPicture.length; i++) {
         devPicture[i].classList.add('dev-picture-cell')
         devPicture[i].classList.remove('dev-picture')
-
     }
 
     for (var i = 0; i < devTxt.length; i++) {
