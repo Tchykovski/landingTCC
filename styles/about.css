@@ -154,3 +154,16 @@ h1 {
 .red {
     color: red;
 }
+
+#jm_avatar, #vi_avatar, #ray_avatar, #gabi_avatar, #bia_avatar{
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+#jm_function{
+    text-align: right;
+    margin-right: 70px ;
+    margin-top: -10px;
+}
