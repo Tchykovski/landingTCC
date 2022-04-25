@@ -164,6 +164,19 @@ h1 {
 
 #jm_function{
     text-align: right;
-    margin-right: 70px ;
+    margin-right: 76px ;
     margin-top: -10px;
+}
+
+
+@media screen and (max-width: 760px){
+    img{
+       width: 121px !important;
+       height: 120px;
+    
+    }
+    .dev-picture{
+        
+        margin-bottom: 100px;
+    }
 }
